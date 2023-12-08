@@ -1,0 +1,15 @@
+Training Metrics:
+341/341 [==============================] - 351s 1s/step - loss: 1.0421 - flatten_loss: 0.6322 - flatten_1_loss: 0.4099 - flatten_accuracy: 0.7208 - flatten_1_accuracy: 0.8456
+
+References:
+1. https://huggingface.co/docs/transformers/tasks/question_answering
+2. https://jalammar.github.io/illustrated-transformer/
+3. https://jalammar.github.io/illustrated-bert/
+4. https://www.tensorflow.org/tfmodels/nlp/fine_tune_bert
+
+Testing Examples:
+Question-1:
+question = "How will Diaphragm Pump work"
+context = "A diaphragm pump (also known as a Membrane pump, Air Operated Double Diaphragm Pump (AODD) or Pneumatic Diaphragm Pump) is a positive displacement pump that uses a combination of the reciprocating action of a rubber , thermoplastic or teflon diaphragm and suitable valves either side of the diaphragm ( check valve , butterfly valves, flap valves, or any other form of shut-off valves) to pump a fluid ."
+
+Question-2:
